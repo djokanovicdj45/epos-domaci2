@@ -1,0 +1,11 @@
+Kreirana je responzivna web aplikacija putem HTML,CSS i JS. Tema aplikacije je internet stranica za CandyByD.
+Web aplikacija sadrži 5 stranica: Početna(candy), O nama, Prodavnica, Korpa i Kontakt.
+Meni sa 4 sekcije se nalazi u gornjem desnom uglu na početku stranice.
+Na stranici O nama je opis posla preduzeća kao i umetnice koje izrađuju igračke.
+Na stranici Prodavnica  je dat asortiman i cena proizvoda. Tu se nalazi i korpa koja predstavlja link za stranicu Korpa gde se nalaze proizvodi koji su izabrani u prodavnici,
+cena pojedinačnog proizvoda, kao i ukupni iznos računa.
+Na stranici Kontakt se nalazi forma za slanje poruka.
+Elementi na svim stranicama su stilizovani preko Css-a, a naručivanje je izvršeno pomoću Java Script.
+Putem media query u CSS-u modifikovaće nam se prikaz dela stranice kada je npr njena širina manja od 768px.
+Na dnu svake stranice , odnosno Footer prikazuje društvene preduzeća gde korisnik može da pogleda više o preduzeću
+ili da podeli sa svojim prijateljima ukoliko je bio zadovoljan proizvodima.

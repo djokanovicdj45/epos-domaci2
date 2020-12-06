@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(253, 200, 209);
+}
+
+/*pocetna*/
+/*header*/
+.glava {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(90, 142, 190);
+}
+
+.sredina {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(90, 142, 190);
+}
+
+.sadrzaj {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.sadrzaj h1 {
+
+    color: thistle;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.sadrzaj h1 span {
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+}
+
+.meni {
+    float: right;
+    height: 100%;
+    padding-right: 30px;
+}
+
+.meni a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 10px;
+}
+
+.meni a:last-child {
+    padding-right: 0;
+}
+
+.meni a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meni a:hover {
+    background-color: rgb(73, 116, 156);
+}
+
+.pocetna {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: rgb(253, 200, 209);
+
+}
+
+.pocetna1 {
+    width: 100%;
+}
+
+
+.pocetna1 p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.pocetna1 span {
+    color: darkgreen;
+}
+
+.dole {
+    display: flex;
+    font-family: bold 16px 'Josefin', sans-serif;
+    padding: 10px 5px;
+    background-color: rgb(75, 75, 75);
+    box-sizing: border-box;
+
+}
+
+/*footer*/
+
+.dole div {
+    margin: 10px 5px;
+}
+
+#prvideo {
+    color: rgb(238, 190, 222);
+    flex: 1;
+    background-color: rgb(75, 75, 75);
+}
+
+.okompaniji {
+    font-size: 20px;
+}
+
+#drugideo {
+    flex: 1;
+    color: rgb(238, 190, 222);
+    position: relative;
+    background-color: rgb(75, 75, 75);
+}
+
+#drugideo .pomoc {
+    text-align: center;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    font-size: 20px;
+    flex: 1;
+}
+
+.pomoc li {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(238, 190, 222);
+}
+
+.pomoc li a {
+    color: rgb(238, 190, 222);
+}
+
+.pomoc a :hover {
+    color: hotpink;
+}
+
+#trecideo {
+    flex: 1;
+    color: rgb(238, 190, 222);
+    background-color: rgb(75, 75, 75)
+}
+
+#cetvrtideo {
+    flex: 1;
+    background-color: rgb(75, 75, 75);
+    color: rgb(238, 190, 222);
+}
+
+.dole #trecideo {
+    width: 35%;
+}
+
+.dole #trecideo p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-weight: bold;
+}
+
+.dole #trecideo i {
+    line-height: 30px;
+    margin: 10px 15px;
+    font-size: 25px;
+}
+
+.dole .mreze {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.dole .mreze i {
+    font-size: 40px;
+    margin: 15px;
+}
+
+.dole.mreze a {
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    line-height: 30px;
+}
+
+.dole .mreze .fa.fa-instagram {
+    color: hotpink;
+}
+
+.dole .mreze .fa.fa-instagram:hover {
+    color: lightseagreen;
+}
+
+.dole .mreze .fa.fa-facebook {
+    color: rgb(0, 0, 207);
+}
+
+.dole .mreze .fa.fa-facebook:hover {
+    color: lightseagreen;
+}
+
+.pravo {
+    text-align: center;
+}
+
+@media(max-width: 880px) {
+    .dole {
+        font: bold 16px 'Josefin', sans-serif;
+    }
+
+    .dole #prvideo,
+    .dole #drugideo,
+    .dole #trecideo,
+    .dole #cetvrtideo {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+}
+
+/*o nama*/
+
+.onama {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(50, 83, 63);
+
+}
+
+.onama1 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+
+#onama11 {
+    flex: 1;
+}
+
+#onama12 {
+    flex: 1;
+}
+
+#onama12 img {
+    float: right;
+}
+
+.onama2 {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.onama2 h2 {
+    color: violet;
+    text-align: center;
+    font-size: 35px;
+}
+
+.onama2 p {
+    padding: 0 5px;
+}
+
+.onama3 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.onama3 h3 {
+    color: violet;
+}
+
+.onama4 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+}
+
+#onama41 {
+    flex: 2;
+    background-color: white;
+}
+
+#onama41 h4 {
+    padding-left: 5px;
+}
+
+#onama41 p {
+    padding-left: 5px;
+}
+
+#onama42 {
+    flex: 1;
+    background-color: white;
+    margin: 5px;
+}
+
+#onama42 h4 p {
+    padding-right: 5px;
+}
+
+#onama42 #draggable {
+    margin-left: 10px;
+}
+
+#onama43 {
+    flex: 1;
+    background-color: white;
+    margin: 5px;
+    align-items: center;
+}
+
+#onama44 {
+    flex: 2;
+    background-color: white;
+}
+
+.onama5 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+
+#onama51 {
+    display: table;
+    flex: 1;
+}
+
+#onama52 {
+    flex: 1;
+}
+
+#onama42 img {
+    float: right;
+}
+
+/*kontakt*/
+
+.kontakt {
+    font-family: "montserrat", sans-serif;
+    background: url(slike/pozadina5.jpeg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.kontakt h1 {
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+
+.granice {
+    width: 100px;
+    height: 10px;
+    background: rgb(90, 142, 190);
+    margin: 40px auto;
+}
+
+.kontakt-forma {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.kontakt-forma1 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(168, 168, 168);
+    padding: 20px 40px;
+    outline: none;
+    color: pink;
+
+}
+
+.kontakt-forma1:focus {
+    box-shadow: 0 0 10px 4px rgb(90, 142, 190);
+}
+
+textarea .kontakt-forma1 {
+    resize: none;
+    height: 120px;
+}
+
+.dugmence {
+    float: right;
+    border: 0;
+    background: rgb(90, 142, 190);
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.dugmence :hover {
+    background: #2980b9;
+}
+
+/*prodavnica*/
+
+.naslov {
+    background-color: rgb(253, 200, 209);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#naslov1 {
+    flex: 1;
+    padding-left: 10px;
+    padding-top: 10px
+}
+
+#naslov2 {
+    flex: 1;
+    padding: 10px 10px;
+}
+
+.link {
+    float: right;
+    padding: 5px;
+    background-color: rgb(236, 240, 232);
+}
+
+.link span {
+    padding-left: 5px;
+}
+
+.korpa ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.korpa .link {
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ponuda {
+    background-color: rgb(253, 200, 209);
+}
+
+.ponuda,
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding-bottom: 100px;
+}
+
+.slika-proizvoda {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dodaj-u {
+    position: absolute;
+    width: 100%;
+    background-color: darkgray;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.slika-proizvoda:hover .korpa1,
+.slika-proizvoda:hover .korpa2,
+.slika-proizvoda:hover .korpa3,
+.slika-proizvoda:hover .korpa4 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* strana korpe*/
+
+.products-container {
+    max-width: 750px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.product-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+
+    flex: 1;
+    border-bottom: 1px solid lightgray;
+}
+
+.price {
+
+    border-bottom: 1px solid lightgray;
+    flex: 1;
+    align-items: center;
+}
+
+.quantity {
+
+    border-bottom: 1px solid lightgray;
+    flex: 1;
+    align-items: center;
+}
+
+.total {
+
+    border-bottom: 1px solid lightgray;
+    flex: 1;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.product {
+    background-color: rgb(215, 181, 247);
+    width: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+#product1 {
+    align-items: center;
+
+    flex: 1;
+}
+
+#price {
+
+    flex: 1;
+
+    text-align: center;
+}
+
+#quantity {
+
+
+    flex: 1;
+
+    text-align: center;
+}
+
+#total {
+
+
+    flex: 1;
+
+    text-align: center;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 7px 0;
+}
+
+.basketTotalTitle {
+    width: 20%;
+}
+
+.dugme {
+    font-size: 30px;
+}
